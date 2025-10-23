@@ -1,0 +1,13 @@
+#include <studio.h>
+// Programa para cadastrar e exibir cartas do Super Tunfo de Paises
+// Este programa le dadas de suas cartas via entrada padrao e os exibe de forma organizada
+
+int main(){
+// Declaracao de variaveis para a Carta 1
+  char estado1;                // Estado da carta 1 (letra de A a H)
+  char codigo1[10];            // Codigo de carta 1 (ex: A01)
+  char nomeCidade1[100];       // Nome da cidade da carta 1
+  int populacao1;              // Populacao da cidade da carta 1
+  float area1;                 // Area da cidade da carta 1 em km²
+  float pib1;                  // PIB da cidade da carta 1 em bilhoes de reais
+  int pontosTuristicos1;       // Numero ade pontos turisticos da carta 1
